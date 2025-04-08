@@ -4,13 +4,13 @@ A vector is a dynamic array from the Standard Template Library (STL) in C++. It 
 An array is a fixed-size data structure that stores elements of the same type in contiguous memory. Its size must be known at compile-time.
 
 🔄 Key Differences
-Feature	array	vector (STL)
-Size	Fixed	Dynamic (can grow/shrink)
-Syntax	int arr[5];	std::vector<int> v;
-Memory	Stack (usually)	Heap
-Flexibility	Low	High
-Functions	None (manual handling)	Rich functions (push_back, size, etc.)
-Bounds Checking	No (arr[5] is unsafe)	Yes (use v.at(5) safely)
+Feature	                array	                vector (STL)
+Size	                Fixed	                Dynamic (can grow/shrink)
+Syntax	                int arr[5];	            std::vector<int> v;
+Memory	Stack           (usually)	            Heap
+Flexibility	            Low	                    High
+Functions	        None (manual handling)	    Rich functions (push_back, size, etc.)
+Bounds Checking	    No (arr[5] is unsafe)	    Yes (use v.at(5) safely)
 
 💡 When to use what?
     • Use array when:
