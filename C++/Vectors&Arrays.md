@@ -108,7 +108,3 @@ C++ internally allocates memory **on the heap** so that it can **grow and shrink
 - `Contiguous memory`: Elements are stored one after another.
 - `std::vector<int> v`: A dynamic array (vector) of integers.
 - Heap: Where `vector` stores its data (so it can grow).
-
----
-
-Want a little visual diagram or animation to make this even clearer?
