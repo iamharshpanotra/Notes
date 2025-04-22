@@ -67,8 +67,6 @@ Database (MongoDB)
 
 ---
 
-## 🔐 Extras You Might Add
-
 ### 🔐 Authentication
 - Firebase Auth or NextAuth (for handling login/signup).
 - Example: Google login with one click.
